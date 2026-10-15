@@ -20,7 +20,7 @@ This package is four skills, all prefixed `job-finder`. Load the phase you are i
 If the host can load skills, load those ids. Otherwise read the sibling `SKILL.md` under `skills/` or next to this install. If a sibling is missing, stop and give the install command. Do not invent a second metadata format.
 
 ```bash
-npx skills add <owner>/job-finder --skill job-finder --skill job-finder-profile --skill job-finder-search --skill job-finder-apply
+npx skills add https://github.com/g15ecb/job-finder --skill job-finder --skill job-finder-profile --skill job-finder-search --skill job-finder-apply
 ```
 
 New skills in this package stay on the `job-finder-` prefix.

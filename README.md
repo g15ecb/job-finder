@@ -2,25 +2,19 @@
 
 Skills that help an agent run a job search without asking the same questions twice, and without suggesting a role you already dismissed or applied to.
 
-Install the set:
+Install the set from [github.com/g15ecb/job-finder](https://github.com/g15ecb/job-finder):
 
 ```bash
-npx skills add OWNER/job-finder --all
+npx skills add https://github.com/g15ecb/job-finder --all
 ```
 
 Or name them:
 
 ```bash
-npx skills add OWNER/job-finder --skill job-finder --skill job-finder-profile --skill job-finder-search --skill job-finder-apply
+npx skills add https://github.com/g15ecb/job-finder --skill job-finder --skill job-finder-profile --skill job-finder-search --skill job-finder-apply
 ```
 
-From a local checkout, before the repo is on GitHub:
-
-```bash
-npx skills add . --skill job-finder --skill job-finder-profile --skill job-finder-search --skill job-finder-apply
-```
-
-`npx skills` is the [skills.sh](https://skills.sh) CLI. It discovers `skills/<name>/SKILL.md`. Once the repo is public, installs show up on the leaderboard. Replace `OWNER` with the GitHub owner.
+`npx skills` is the [skills.sh](https://skills.sh) CLI. It discovers `skills/<name>/SKILL.md` in that repo.
 
 Any new skill in this repo stays on the `job-finder-` prefix.
 
