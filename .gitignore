@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Personal search data, if someone runs the skills inside this package.
+.job-finder/
+cv/
+applications/
+*.worktrees/
